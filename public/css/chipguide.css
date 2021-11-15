@@ -1,0 +1,50 @@
+a {
+    color: #eb008b;
+}
+a:hover {
+    color: #b9006d;
+}
+
+
+.theme-base-f0f .content a {
+color: #eb008b;
+
+}
+.theme-base-f0f .related-posts li a:hover {
+color: #b9006d;
+}
+
+.theme-base-f0f {
+    background-color: #f0f0fa;
+}
+.theme-base-f0f .content {
+    background-color: #fff;
+    padding: 4rem;
+}
+
+.sidebar-about a {
+    text-align: center;
+    display: block;
+}
+.sidebar-about a img {
+    margin: auto auto 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    max-width: 10rem;
+}
+
+.theme-base-f0f .sidebar {
+    border-bottom: .2rem solid #eb008b
+}
+@media (min-width: 48em) {
+    .theme-base-f0f .sidebar {
+        border-bottom: none;
+        border-right: .2rem solid #eb008b
+    }
+}
+@media (min-width: 64rem) {
+    .theme-base-f0f .content {
+        width: 50rem;
+        max-width: calc(100% - 26rem);
+    }
+}
