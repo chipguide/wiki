@@ -119,3 +119,5 @@ sudo nmcli dev wifi connect "YOUR NETWORK SSID" password "YOUR NETWORK PASSWORD"
 ```
 
 After your Wi-Fi is connected, you can use `apt` to install software.
+
+If you want to build your own root image, you can follow the instructions and configurations provided by _macroalpha_ here: [macromorgan/chip-debroot](https://github.com/macromorgan/chip-debroot)
